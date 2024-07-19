@@ -1,0 +1,388 @@
+body{
+    background-color: rgb(59, 9, 9);
+}
+
+#barra{
+    display: flex;
+    width: auto;
+    height: 80px;
+    background-color: black;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    justify-content: space-between;
+}
+
+#barraprimaria{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+#casillalogo{
+    width: 55px;
+    height: 55px;
+    background-color: bisque;
+    border-radius: 10px;
+    margin-left: 15px;
+
+}
+#logoimagen{
+    width: 55px;
+    height: 55px;
+}
+
+#logoimagen:hover{
+     transform: rotateY(180deg);
+}
+
+#textologo{
+      margin-left: 10px;
+      color: aliceblue;
+      font-family: Verdana;
+      font-size: 40px;
+}
+
+#barrasecundaria{
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#follow{
+    font-family: Verdana;
+    color:  bisque;
+    font-size: 30px; 
+    margin-left: 35px;
+
+}
+
+#redes{
+    display: flex;
+    gap: 25px;
+    margin-left: 25px;
+}
+
+.cred{
+    width: 60px;
+    height: 55px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.cred:hover{
+    scale: 1.1;
+}
+
+#fb{
+
+    width: 43px;
+    height: 43px;
+    margin-top: 4px;
+
+}
+
+#yt{
+    width: 63px;
+    height: 40px; 
+    margin-right: 3px;  
+    margin-top: 4px;
+}
+
+#x{
+    height: 60px;
+    margin-top: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+MENU PRIMARIO
+*/
+
+
+#m1{    
+    margin-top: 200px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+   
+}
+
+
+
+
+#m1content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+
+#txts1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#t1{
+    color: aliceblue;
+    font-size: 130px;
+    font-family: Verdana;
+}
+
+#t1txt{
+    color: aliceblue;
+    gap: 4px;
+    font-family: Verdana;
+    font-size: 25px;
+
+}
+
+#opscasilla{
+    margin-top: 50px;
+}
+#opsimgs{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+#ops{
+    display: flex;
+    flex-direction: row;
+    gap: 92px;
+    margin-top: 2px;
+    margin-left: -8px;
+}
+
+.boxop{
+    width: 15px;
+    height: 15px;
+}
+
+.celdasop{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.celdaupleft{
+    border-top-left-radius: 6.5px;
+}
+
+.celdauprigth{
+    border-top-right-radius: 6.5px;
+}
+
+.celdadownleft{
+    border-bottom-left-radius: 6.5px;
+}
+
+.celdadownrigth{
+    border-bottom-right-radius: 6.5px;
+}
+
+.optotal{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    border-color: aliceblue;
+    border-width: 3px;
+    border-style: solid;  
+
+}
+
+.imgc1a{
+    background-color: black;
+
+}
+
+.imgc1b{
+    background-color: rgb(244, 230, 213);
+}
+
+.imgc2b{
+    background-color: rgb(130, 0, 0);
+}
+
+.imgc3b{
+    background-color: rgb(0, 33, 124);
+}
+
+.imgc4b{
+    background-color: rgb(8, 63, 0);
+}
+
+#form1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#txtopsmn1{
+    color: aliceblue;
+    font-family: Verdana;
+    display: flex;
+    margin-top: 5px;
+    margin-left: -8px;
+    gap: 56px;
+}
+
+.txtcs{
+    height: 20px;
+    width: 60px;
+    text-align: center;
+}
+
+
+#btmn1{
+    margin-top: 40px;
+    border-radius: 10px;
+    font-family: Verdana;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#btmn1:hover{
+    background-color: rgb(111, 0, 0);
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    scale: 1.2;
+}
+
+.optotal:hover{
+    rotate: -20deg;
+}
+
+#textoresultado{
+    color: aliceblue;
+    font-family: Verdana;
+    margin-top: 32px;
+    position: absolute;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tablero*/
+
+
+#contenttablero{
+    display: none;
+    justify-content: center;
+
+}
+
+
+
+#tablero{    
+    background-color: rgb(72, 72, 72);
+    width: 1230px;
+    height: 1230px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    display: flex;
+}
+
+#tablero:hover{
+    background-color: rgb(188, 188, 188);
+}
+
+#filascolumnas{
+    border-radius: 60px;
+}
+
+
+
+.celda{
+    background-color: black;
+    width: 150px;
+    height: 150px;   
+    
+}
+
+.celda:hover{
+    border-color: aliceblue;
+   border-style: outset;
+    border-width: 4px;
+}
+
+
+.celda.red{
+    background-color: rgb(255, 255, 255);
+}
+
+.fila{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 150px;   
+}
+
+#f11{
+    border-top-left-radius: 20px;
+}
+
+#f18{
+    border-top-right-radius: 20px;
+}
+
+#f81{
+    border-bottom-left-radius: 20px;
+}
+
+#f88{
+    border-bottom-right-radius: 20px;
+}
